@@ -4,5 +4,5 @@
 ## Dockerデーモンの起動
 `sudo service docker start`
 
-## ローカルでコンテナに入る
+## コンテナを立ち上げる
 `UID_GID="$(id -u):$(id -g)" docker-compose up -d --build`
