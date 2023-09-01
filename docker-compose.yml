@@ -13,7 +13,7 @@ services:
     - ./docker/org-chimata-ssl-certs:/var/lib/https-portal
       
   web:
-    image: nginx:1.15.6
+    image: nginx:latest
     ports:
       - "8000:8000"
     depends_on:
